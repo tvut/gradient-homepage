@@ -1,0 +1,242 @@
+:root {
+    --accent: #FBB13C;
+}
+
+/* Fonts */
+h1,h2,h3,h4,h5,h6,h8,h9{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+body,h7 {
+    color:#2e2e2e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    width:100vw;
+    overflow-x:hidden;
+}
+
+h7{
+    text-transform: uppercase;
+    color:#b3b3b3;
+    text-align: center;
+    width:100%;
+    display: block;
+    padding-bottom: 40px;
+    font-size:24px;
+    letter-spacing: 8px;
+}
+
+h1{
+    font-size:80pt;
+    margin-left:-3px;
+}
+h2{
+    font-size:60px;
+}
+h3{
+    font-size:36px;
+}
+section {
+    padding: 10vh 30px;
+}
+@media screen and (max-width: 768px){
+    h3{
+        font-size:28px;
+    }
+    section{
+        padding-top:30px;
+        padding-bottom: 30px;
+    }
+}
+.accent{
+    color:var(--accent);
+}
+.w{
+    color:white;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    text-align: center;
+}
+.flex-left {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.full{
+    width: 100vw;
+    height:100vh;
+}
+
+.phone{
+    width:90%;
+}
+.full h1{
+    font-size:15vw;
+    color:white
+}
+.full p, .full h3{
+    font-size:7vw;
+    color:white;
+}
+.fullpadded{
+    padding: 15vw;
+    padding-bottom: 5vw;
+}
+
+.overflowprotect{
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+ .gradient{
+            background: #34e89e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #0f3443, #34e89e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #0f3443, #34e89e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+@media screen and (min-aspect-ratio: 1/1) {
+
+    .full h1{
+        font-size:7vw;
+        color: white;
+    }
+    .full p, .full h3{
+        font-size:3vw;
+    }
+    .full-padded{
+        padding: 5vw;
+    }
+}
+
+header .right{
+    background: white;
+}
+
+footer{
+    background-color:#2e2e2e;
+    text-transform: uppercase;
+    text-align: center;
+    color:#CCC;
+    line-height:20px;
+    letter-spacing: 15px;
+    padding:30px;
+}
+footer img{
+    max-width:250px;
+    opacity: .6;
+    margin-top: 15px;
+    width:65%;
+}
+.copyright{
+    text-align: center;
+    padding: 30px;
+    background-color:#171717;
+    color:#5c5c5c;
+    width:100vw;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.appgoals{
+    text-align: center;
+    background-color:white;
+}
+.appgoals p{
+    line-height:28px;
+    color:#929292
+}
+.appgoals img{
+    width:90%;
+    padding:20px;
+}
+.blurb{
+    max-width:850px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+article img{
+    max-height:1000px;
+    height:60vh;
+    filter: drop-shadow(0px 0px 8px #969696);
+}
+.right{
+    text-align: center;
+}
+.circlenum{
+    width: 45px;
+    line-height:45px;
+    background-color:var(--accent);
+    color:white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 30px;
+}
+@media screen and (min-width:768px){
+    .right {
+        text-align: right;
+    }
+    article p{
+        font-size:19px;
+    }
+    .circlenum{
+        width:60px;
+        line-height: 60px;
+    }
+    }
+.a {
+    background-color:#f2f2f2
+}
+.b{
+    background-color:#f8f8f8;
+}
+.flex-left h3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+article p{
+    color:#7a7a7a;
+}
+.underlayfooter{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width:100vw;
+    z-index: -2;
+}
+.button{
+    color:#2e2e2e;
+    text-decoration: none;
+    border: 3px solid #2e2e2e;
+    padding: 15px 25px;
+    display: inline-block;
+    margin-top:10px;
+    transition: .5s all;
+    border-radius: 30px;
+}
+.button h4{
+    margin-bottom:0;
+    padding-bottom: 0;
+}
+.button:hover{
+    color:var(--accent);
+    text-decoration: none;
+    background-color: #2e2e2e;
+}
+/*@media screen and (max-aspect-ratio: 1/2) {*/
+/*    .overflowprotect{*/
+/*        height:80vh;*/
+/*    }*/
+/*}*/
+
